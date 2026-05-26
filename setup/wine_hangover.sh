@@ -10,6 +10,8 @@ cd wine_hangover/arm64-v8a
 mv bin/ /data/data/com.termux/files/usr/
 mv lib/ /data/data/com.termux/files/usr/
 mv share/ /data/data/com.termux/files/usr/
+cd
+rm wine_hangover
 clear
 echo -e "\e[32mRunning Wine Explorer\e[0m"
 wine explorer
