@@ -10,7 +10,7 @@ echo -e "\e[32mInstalling PulseAudio\e[0m"
 pkg install pulseaudio -y
 clear
 echo -e "\e[32mInstalling XFCE4 Desktop\e[0m"
-pkg install xfce4 xfce4-goodies -y
+pkg install xfce4 -y
 clear
 echo -e "\e[32mInstalling Chromium\e[0m"
 pkg install tur-repo -y
